@@ -1,0 +1,24 @@
+{
+    "name": "juanalvarenga/base-api",
+    "description": "Base para el desarrollo de una API",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BaseApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Alvarenga"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "slim/slim": "^4.13.0",
+        "slim/psr7": "^1.6.1",
+        "firebase/php-jwt": "6.8.1",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    }
+}
